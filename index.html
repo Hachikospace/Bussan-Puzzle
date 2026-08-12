@@ -514,7 +514,7 @@
             isPlaying = true;
             firstSelectedTile = null;
             
-            timeLeft = 30; 
+            timeLeft = 25; 
             timeDisplay.innerText = timeLeft;
             
             clearInterval(timerId);
@@ -533,7 +533,7 @@
         function resetGame() {
             clearInterval(timerId);
             isPlaying = false;
-            timeLeft = 30; 
+            timeLeft = 25; 
             timeDisplay.innerText = timeLeft;
             firstSelectedTile = null;
             initBoard(); 
